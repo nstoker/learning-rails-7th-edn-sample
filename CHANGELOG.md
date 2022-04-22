@@ -11,4 +11,4 @@ About to start [2.4](https://www.learnenough.com/ruby-on-rails-7th-edition-tutor
 
 - Initial build from command line.
 - Use the tutorial's gem file.
-
+- Improve the readme.
