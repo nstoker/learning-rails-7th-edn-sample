@@ -9,6 +9,8 @@ About to start [3.3](https://www.learnenough.com/ruby-on-rails-7th-edition-tutor
 
 ## [Unreleased]
 
+## v0.0.2 2022-04-22
+
 - Added home, help, about, and contact static pages.
 - Added tests for the pages.
 
