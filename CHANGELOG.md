@@ -7,7 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 About to start [3.3](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/static_pages#sec-refactor)
 
+## TODO
+
+- Finish configuring rails-erd after first models configured.
+
 ## [Unreleased]
+
+- added guard for automated retesting
+- added simplecov
+- added rails-erd
 
 ## v0.0.2 2022-04-22
 
