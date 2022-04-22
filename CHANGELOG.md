@@ -9,6 +9,8 @@ About to start [2.4](https://www.learnenough.com/ruby-on-rails-7th-edition-tutor
 
 ## [Unreleased]
 
+## v0.0.1 2022-04-22
+
 - Initial build from command line.
 - Use the tutorial's gem file.
 - Improve the readme.
