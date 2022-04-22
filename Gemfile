@@ -19,6 +19,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'rails-erd'
   gem "web-console", "4.2.0"
 end
 
@@ -31,6 +32,8 @@ group :test do
   gem "minitest-reporters",       "1.5.0"
   gem "guard",                    "2.18.0"
   gem "guard-minitest",           "2.4.6"
+  gem 'guard-rails', '~> 0.8.1'
+  gem 'simplecov'
 end
 
 group :production do
