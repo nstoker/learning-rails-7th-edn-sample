@@ -13,6 +13,8 @@ About to start [Chapter 5](https://www.learnenough.com/ruby-on-rails-7th-edition
 
 ## [Unreleased]
 
+- Simplify routes.
+
 ## v0.0.4 2022-04-22
 
 - Refactored page title
