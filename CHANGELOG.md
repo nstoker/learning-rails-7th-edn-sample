@@ -13,6 +13,8 @@ About to start [Chapter 4](https://www.learnenough.com/ruby-on-rails-7th-edition
 
 ## [Unreleased]
 
+- Refactored page title
+
 ## v0.0.3 2022-04-22
 
 - added guard for automated retesting
