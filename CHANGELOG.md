@@ -17,6 +17,7 @@ About to start [Chapter 5.4](https://www.learnenough.com/ruby-on-rails-7th-editi
 - Added bootstrap and improved layout.
 - Add site layout tests.
 - Add ApplicationHelper tests.
+- Add User signup route.
 
 ## v0.0.4 2022-04-22
 
