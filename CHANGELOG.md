@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-About to start [Chapter 5](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/filling_in_the_layout#sec-layout_link_tests)
+About to start [Chapter 5.4](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/filling_in_the_layout#sec-user_signup)
 
 ## TODO
 
@@ -15,6 +15,8 @@ About to start [Chapter 5](https://www.learnenough.com/ruby-on-rails-7th-edition
 
 - Simplify routes.
 - Added bootstrap and improved layout.
+- Add site layout tests.
+- Add ApplicationHelper tests.
 
 ## v0.0.4 2022-04-22
 
