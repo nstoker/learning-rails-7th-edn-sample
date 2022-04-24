@@ -50,7 +50,7 @@ group :red_green_refactor, halt_on_fail: true do
       integration_tests(matches[1])
     end
     watch(%r{^app/helpers/(.*?)_helper\.rb$}) do |matches|
-      integration_tests(matches[1])
+      [helper_tests(matches[1]), integration_tests(matches[1])]
     end
     watch('app/views/layouts/application.html.erb') do
       'test/integration/site_layout_test.rb'
@@ -81,6 +81,16 @@ group :red_green_refactor, halt_on_fail: true do
       Dir["test/integration/*"]
     else
       Dir["test/integration/#{resource}_*.rb"]
+    end
+  end
+
+  # Returns helper tests for the given resource
+  def helper_tests(resource = :all)
+    if resource == :all
+      Dir['test/helpers/*']
+    else
+
+      Dir["test/helpers/#{resource}_helper_test.rb"]
     end
   end
 
