@@ -16,6 +16,7 @@ About to start [Chapter 6](https://www.learnenough.com/ruby-on-rails-7th-edition
 - Add user model.
 - Implement basic email and name validation.
 - added debug information for development.
+- added users/show action.
 
 ## v0.0.5 2022-04-23
 
