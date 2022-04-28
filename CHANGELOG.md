@@ -13,11 +13,14 @@ About to start [Chapter 7.5.4](https://www.learnenough.com/ruby-on-rails-7th-edi
 
 ## [Unreleased]
 
+## v0.0.6 2022-04-28
+
 - Add user model.
 - Implement basic email and name validation.
 - Add debug information for development.
 - Add users/show action with sidebar and gravatar image.
 - Style signup page.
+- Prepare for production.
 
 ## v0.0.5 2022-04-23
 
