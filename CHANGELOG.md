@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-About to start [Chapter 7.4.3](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/sign_up#sec-the_first_signup)
+About to start [Chapter 7.5](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/sign_up#sec-professional_grade_deployment)
 
 ## TODO
 
