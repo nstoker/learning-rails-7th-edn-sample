@@ -5,13 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-About to start [Chapter 5.4](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/filling_in_the_layout#sec-user_signup)
+About to start [Chapter 7.5.4](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/sign_up#sec-production_deployment)
 
 ## TODO
 
 - Finish configuring rails-erd after first models configured.
 
 ## [Unreleased]
+
+## v0.0.6 2022-04-28
+
+- Add user model.
+- Implement basic email and name validation.
+- Add debug information for development.
+- Add users/show action with sidebar and gravatar image.
+- Style signup page.
+- Prepare for production.
 
 ## v0.0.5 2022-04-23
 
