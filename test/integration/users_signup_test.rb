@@ -23,5 +23,8 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     end
     follow_redirect!
     assert_template 'users/show'
+    pp flash
+    assert flash[:success]
+    assert_not flash[:failure]
   end
 end
