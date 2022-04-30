@@ -176,3 +176,9 @@ input {
     color: $state-danger-text;
   }
 }
+
+/* dropdown menu */
+
+.dropdown-menu.active {
+  display: block;
+}
