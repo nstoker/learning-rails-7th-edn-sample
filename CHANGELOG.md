@@ -13,11 +13,15 @@ About to start [Chapter 9](https://www.learnenough.com/ruby-on-rails-7th-edition
 
 ## [Unreleased]
 
+## v0.0.7 2022-05-01
+
 - start the signin code.
 - add the menu javascript.
 - successful login, logout not yet implemented.
 - make app more mobile friendly.
 - refactor javascript for hamburger and account menus.
+- log out code
+- refactored tests
 
 ## v0.0.6 2022-04-28
 
