@@ -16,7 +16,7 @@ class User < ApplicationRecord
   has_secure_password
 
   # Returns the has digest of the given string
-  def User.digest(string)
+  def self.digest(string)
     cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST : BCrypt::Engine.cost
     BCrypt::Password.create string, cost: cost
   end
@@ -28,7 +28,7 @@ class User < ApplicationRecord
 
   # Remembers a token in the database for use in a persistent session
   def remember
-    self.remember_token = User.new_token
+    self.remember_token = self.new_token
     update_attribute(:remember_digest, User.digest(remember_token))
   end
 end
