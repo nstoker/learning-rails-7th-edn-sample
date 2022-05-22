@@ -194,6 +194,15 @@ input {
   }
 }
 
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10ox;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
 /* dropdown menu */
 
 .dropdown-menu.active {
