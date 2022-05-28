@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-About to start [Chapter 10.1.2](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/updating_and_deleting_users#sec-unsuccessful_edits)
+About to start [Chapter 10.1.4 listing 10.12](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/updating_and_deleting_users#code-user_update_action)
 
 ## TODO
 
@@ -21,6 +21,8 @@ About to start [Chapter 10.1.2](https://www.learnenough.com/ruby-on-rails-7th-ed
   - added controller action for unsuccessful update.
 - 10.1.3
   - added test for unsuccessful edits.
+- 10.1.4
+  - added test and code for a successful edit.
 
 ## v0.0.8 2022-05-22
 
