@@ -19,6 +19,8 @@ About to start [Chapter 10.1.2](https://www.learnenough.com/ruby-on-rails-7th-ed
   - refactored `new` and `edit` to use `_form`.
 - 10.1.2
   - added controller action for unsuccessful update.
+- 10.1.3
+  - added test for unsuccessful edits.
 
 ## v0.0.8 2022-05-22
 
