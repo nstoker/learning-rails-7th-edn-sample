@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-About to start [Chapter 10.1.4 listing 10.12](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/updating_and_deleting_users#code-user_update_action)
+About to start [Chapter 10.2 Exercises](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/updating_and_deleting_users#sec-exercises_requiring_logged_in_users)
 
 ## TODO
 
