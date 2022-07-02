@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-About to start [Chapter 10.2.3 Requiring the right user](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/updating_and_deleting_users#sec-friendly_forwarding)
+About to start [Chapter 10.3 Showing all users](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/updating_and_deleting_users#sec-showing_all_users)
 
 ## TODO
 
@@ -25,8 +25,11 @@ About to start [Chapter 10.2.3 Requiring the right user](https://www.learnenough
   - added test and code for a successful edit.
 - 10.2.1
   - Requiring logged in users.
-- 10.2.2 
+- 10.2.2
   - Requiring the right user
+  10.2.3
+  - Friendly Forwarding
+  - test for friendly forwarding only the first login attempt
 
 ## v0.0.8 2022-05-22
 

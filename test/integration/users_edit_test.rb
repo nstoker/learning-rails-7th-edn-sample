@@ -31,6 +31,8 @@ class UsersEditTest < ActionDispatch::IntegrationTest
     @user.reload
     assert_equal name, @user.name
     assert_equal email, @user.email
+
+    assert session[:forwarding_url].blank?
   end
 
   test 'successful edit with friendly forwarding' do
