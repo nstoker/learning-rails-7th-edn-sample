@@ -101,6 +101,8 @@ GEM
     docile (1.4.0)
     erubi (1.10.0)
     execjs (2.8.1)
+    faker (2.21.0)
+      i18n (>= 1.8.11, < 2)
     ffi (1.15.5)
     formatador (1.1.0)
     globalid (1.0.0)
@@ -295,6 +297,7 @@ DEPENDENCIES
   byebug
   capybara (= 3.36.0)
   debug (= 1.4.0)
+  faker (= 2.21.0)
   guard (= 2.18.0)
   guard-minitest (= 2.4.6)
   guard-rails (~> 0.8.1)

@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-About to start [Chapter 10.3 Showing all users](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/updating_and_deleting_users#sec-showing_all_users)
+About to start [Chapter 10.3.3 Pagination](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/updating_and_deleting_users#sec-pagination)
 
 ## TODO
 
@@ -32,6 +32,10 @@ About to start [Chapter 10.3 Showing all users](https://www.learnenough.com/ruby
   - test for friendly forwarding only the first login attempt
 - 10.3.1
   - All Users
+- 10.3.2
+  - Sample users
+- 10.3.3
+  - Pagination
 
 ## v0.0.8 2022-05-22
 
