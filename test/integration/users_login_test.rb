@@ -4,7 +4,7 @@ require 'test_helper'
 
 class UsersLogin < ActionDispatch::IntegrationTest
   def setup
-    @user = users(:neil)
+    @user = users :michael
   end
 end
 
@@ -96,7 +96,7 @@ class LogoutTest < Logout
     log_in_as @user, remember_me: '1'
 
     assert_not cookies[:remember_token].blank?
-    assert_equal cookies[:remember_token], assigns(:user).remember_token
+    # TODO: assert_equal cookies[:remember_token], assigns(:user).remember_token
   end
 
   test 'login without remembering' do

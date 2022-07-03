@@ -5,13 +5,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-About to start [Chapter 10 updating, showing, an ddeleting users](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/updating_and_deleting_users)
+About to start [Chapter 10.4.2 the destroy action](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/updating_and_deleting_users#sec-user_destroy_tests)
 
 ## TODO
 
 - Finish configuring rails-erd after first models configured.
 
 ## [Unreleased]
+
+- 10.1.1
+  - added user edit page.
+  - set `rel` to `noopener` to mitigate a security issue.
+  - refactored `new` and `edit` to use `_form`.
+- 10.1.2 added controller action for unsuccessful update.
+- 10.1.3 added test for unsuccessful edits.
+- 10.1.4 added test and code for a successful edit.
+- 10.2.1 requiring logged in users.
+- 10.2.2 requiring the right user
+  10.2.3
+  - Friendly Forwarding
+  - test for friendly forwarding only the first login attempt
+- 10.3.1 all Users
+- 10.3.2 sample users
+- 10.3.3 pagination
+- 10.3.4 users index test
+- 10.3.5 refactoring
+- 10.4.1 protect the admin attribute
+- 10.4.2 the destroy action
+- 10.4.3 user destroy tests
 
 ## v0.0.8 2022-05-22
 
