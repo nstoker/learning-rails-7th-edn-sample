@@ -37,3 +37,4 @@
 # Ignore code coverage results
 coverage/
 /.byebug_history
+/.env.development*
