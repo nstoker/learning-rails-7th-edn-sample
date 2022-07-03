@@ -5,13 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-About to start [Chapter 10.4.2 the destroy action](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/updating_and_deleting_users#sec-user_destroy_tests)
+About to start [Chapter 11.Account activation emails](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/account_activation#sec-account_activation_emails)
 
 ## TODO
 
 - Finish configuring rails-erd after first models configured.
 
 ## [Unreleased]
+
+- 11.1.1 account activations controller
+- 11.2 account activation emails
+- 11.2.1 mailer templates
 
 ## v0.0.9 2022-07-03
 
