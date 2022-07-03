@@ -13,6 +13,8 @@ About to start [Chapter 10.4.2 the destroy action](https://www.learnenough.com/r
 
 ## [Unreleased]
 
+## v0.0.9 2022-07-03
+
 - 10.1.1
   - added user edit page.
   - set `rel` to `noopener` to mitigate a security issue.

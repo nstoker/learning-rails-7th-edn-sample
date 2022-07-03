@@ -4,7 +4,7 @@
 module ApplicationHelper
   # Returns the application version
   def application_version
-    '0.0.8'
+    '0.0.9'
   end
 
   # Returns the full title on a per-page basis
