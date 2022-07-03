@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-About to start [Chapter 10.4.2 the destroy action](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/updating_and_deleting_users#sec-the_destroy_action
+About to start [Chapter 10.4.2 the destroy action](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/updating_and_deleting_users#sec-user_destroy_tests)
 
 ## TODO
 
@@ -32,6 +32,7 @@ About to start [Chapter 10.4.2 the destroy action](https://www.learnenough.com/r
 - 10.3.5 refactoring
 - 10.4.1 protect the admin attribute
 - 10.4.2 the destroy action
+- 10.4.3 user destroy tests
 
 ## v0.0.8 2022-05-22
 

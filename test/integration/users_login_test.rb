@@ -4,7 +4,7 @@ require 'test_helper'
 
 class UsersLogin < ActionDispatch::IntegrationTest
   def setup
-    @user = users(:neil)
+    @user = users :michael
   end
 end
 

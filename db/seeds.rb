@@ -5,13 +5,16 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-password = ENV.fetch('SAMPLE_PASSWORD',OpenSSL::Random.random_bytes(20).unpack('M*').join)
+admin_password = 'password'
+
 User.create!(name: 'Admin User',
-             email: 'example@railstutorial.org',
-             password: password,
-             password_confirmation: password,
+             email: 'neil@stoker.dev',
+             password: admin_password,
+             password_confirmation: admin_password,
              sample_user: false,
              admin: true)
+
+password = 'password'
 
 99.times do |n|
   User.create!(name: Faker::Name.name,
