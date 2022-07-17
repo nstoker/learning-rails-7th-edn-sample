@@ -2,6 +2,7 @@
 
 # .nodoc
 Rails.application.routes.draw do
+  get 'account_activations/edit'
   get 'sessions/new'
   resources :users
   get '/signup', to: 'users#new'
