@@ -72,6 +72,7 @@ class User < ApplicationRecord
 
   def create_activation_digest
     self.activation_token = User.new_token
+    Rails.logger.info "create_activation_token #{activation_token} #{self}"
     self.activation_digest = User.digest(activation_token)
   end
 end
