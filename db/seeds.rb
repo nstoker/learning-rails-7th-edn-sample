@@ -12,6 +12,8 @@ User.create!(name: 'Admin User',
              password: admin_password,
              password_confirmation: admin_password,
              sample_user: false,
+             activated: true,
+             activated_at: Time.zone.now,
              admin: true)
 
 password = 'password'
@@ -21,5 +23,7 @@ password = 'password'
                email: "example-#{n+1}@railstutorial.org",
                password: password,
                password_confirmation: password,
+               activated: true,
+               activated_at: Time.zone.now,
                sample_user: true)
 end
