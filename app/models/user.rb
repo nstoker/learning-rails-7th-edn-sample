@@ -34,6 +34,16 @@ class User < ApplicationRecord
     remember_digest
   end
 
+  # Activates an account.
+  def activate
+    update_attribute :activated, true
+    update_attribute :activated_at, Time.zone.now
+  end
+
+  # Sends activation email.
+  def send_activation_email
+    UserMailer.account_activation(self).deliver_now
+  end
 
   # remembers a session token to prevent session hijacking.
   # We reuse the remember digest for convenience
