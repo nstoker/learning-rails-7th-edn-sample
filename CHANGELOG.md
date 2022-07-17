@@ -13,6 +13,8 @@ About to start [Chapter 11.4](https://www.learnenough.com/ruby-on-rails-7th-edit
 
 ## [Unreleased]
 
+## v0.0.10 2022-07-17
+
 - 11.1.1 account activations controller
 - 11.2 account activation emails
 - 11.2.1 mailer templates
