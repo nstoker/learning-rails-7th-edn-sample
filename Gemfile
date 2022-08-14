@@ -9,6 +9,7 @@ gem 'bcrypt', '3.1.16'
 gem 'bootstrap-sass', '3.4.1'
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'faker', '2.21.0'
+gem 'newrelic_rpm'
 gem "sassc-rails",     "2.1.2"
 gem "sprockets-rails", "3.4.2"
 gem "importmap-rails", "1.0.3"
