@@ -9,7 +9,7 @@ About to start [Chapter 11.4](https://www.learnenough.com/ruby-on-rails-7th-edit
 
 ## TODO
 
-- Finish configuring rails-erd after first models configured.
+- The sending of emails is proving problematical getting authorised through SendGrid. So skipping and moving on as I've spent way too long dealing with this issue.
 
 ## [Unreleased]
 
