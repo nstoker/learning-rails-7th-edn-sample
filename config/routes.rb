@@ -2,6 +2,8 @@
 
 # .nodoc
 Rails.application.routes.draw do
+  get 'password_resets/new'
+  get 'password_resets/edit'
   get 'sessions/new'
   resources :users
   get '/signup', to: 'users#new'
@@ -13,6 +15,7 @@ Rails.application.routes.draw do
   delete '/logout', to: 'sessions#destroy'
 
   resources :account_activations, only: %i[edit]
+  resources :password_resets, only: %i[new create edit update]
 
   root 'static_pages#home'
 end

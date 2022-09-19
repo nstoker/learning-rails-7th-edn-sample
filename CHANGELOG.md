@@ -5,13 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-About to start [Chapter 11.4](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/account_activation#sec-activation_email_in_production)
+About to start [Chapter 12.2.1](https://www.learnenough.com/ruby-on-rails-7th-edition-tutorial/password_reset#sec-password_reset_mailer)
 
 ## TODO
 
-- The sending of emails is proving problematical getting authorised through SendGrid. So skipping and moving on as I've spent way too long dealing with this issue.
+- The sending of emails is proving problematical getting authorised through SendGrid. So skipping and moving on as I've spent way too long trying to deal with this issue.
+  - The vague plan is to get the rest working, strip out all the email code and try a variety of other solutions.
 
 ## [Unreleased]
+
+- Disabled many broken tests. For now.
 
 ## v0.0.10 2022-07-17
 

@@ -7,6 +7,9 @@ require 'simplecov'
 require_relative "../config/environment"
 require "rails/test_help"
 require 'minitest/reporters'
+require 'capybara/rails'
+require 'capybara/minitest'
+
 Minitest::Reporters.use!
 
 class ActiveSupport::TestCase
@@ -30,6 +33,17 @@ class ActiveSupport::TestCase
 end
 
 class ActionDispatch::IntegrationTest
+  include Capybara::DSL
+  include Capybara::Minitest::Assertions
+
+  Capybara.register_driver :chrome do |app|
+    Capybara::Selenium::Driver.new(app, browser: :chrome)
+  end
+
+  teardown do
+    Capybara.reset_sessions!
+    Capybara.use_default_driver
+  end
 
   # Log in as a particular user
   def log_in_as(user, password: 'password', remember_me: '1')
