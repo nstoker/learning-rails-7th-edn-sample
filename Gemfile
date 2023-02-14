@@ -5,20 +5,20 @@ ruby "3.1.2"
 
 gem "rails"
 
-gem 'bcrypt', '3.1.16'
-gem 'bootstrap-sass', '3.4.1'
-gem 'bootstrap-will_paginate', '1.0.0'
-gem 'faker', '2.21.0'
+gem 'bcrypt'
+gem 'bootstrap-sass'
+gem 'bootstrap-will_paginate'
+gem 'faker'
 gem 'newrelic_rpm'
-gem "sassc-rails",     "2.1.2"
-gem "sprockets-rails", "3.4.2"
-gem "importmap-rails", "1.0.3"
-gem "turbo-rails",     "1.0.1"
-gem "stimulus-rails",  "1.0.4"
-gem "jbuilder",        "2.11.5"
-gem "puma",            "5.6.4"
-gem "bootsnap",        "1.11.1", require: false
-gem 'will_paginate', '3.3.1'
+gem "sassc-rails"
+gem "sprockets-rails"
+gem "importmap-rails"
+gem "turbo-rails"
+gem "stimulus-rails"
+gem "jbuilder"
+gem "puma"
+gem "bootsnap", require: false
+gem 'will_paginate'
 
 group :development, :test do
   gem "sqlite3", "1.4.2"
